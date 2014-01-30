@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Введите имя канала:"
+                android:id="@+id/textView" android:layout_weight="1"
+                android:textSize="20dp"
+                android:gravity="center" android:padding="5dp"/>
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/space"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lenta.ru"
+                android:id="@+id/editText"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Введите ссылку на канал:"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:id="@+id/textView1"/>
+        <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5px"
+                android:id="@+id/space1"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="http://lenta.ru/rss"
+                android:id="@+id/editText1"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сохранить"
+            android:textSize="18dp"
+            android:id="@+id/button" android:layout_gravity="center_horizontal" android:clickable="true"
+            android:enabled="true" android:onClick="onAddSaveListener"/>
+</LinearLayout>

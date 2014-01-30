@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">News Live</string>
+    <string name="update">Обновить</string>
+    <string name="add">Добавить канал</string>
+    <string name="settings">Настройки</string>
+    <string name="reloadStarted">Обновление началось!</string>
+    <string name="internetAvailable">Отсутствует интеренет соединение!</string>
+    <string name="updatingSuccess">Обновление прошло успешло!</string>
+    <string name="updating">Происходит обновление!</string>
+    <string name="channelUpdating">Подождите немного, канал обновляется!</string>
+    <string name="updateError">При обновлении канала произошла ошибка! Возможно вы указали неправильную ссылку!</string>
+    <string name="settingToast">ВНИМАНИЕ! Изменения вступят в силу после перезапуска программы!</string>
+    <string name="noChannels">Нет каналов для отображения! Для добавления каналов нажмите ДОБАВИТЬ КАНАЛ!</string>
+    <string name="reloading">Обновление уже происходит!</string>
+    <string name="channelsReloaded"> каналов обновлено.</string>
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+    <string name="areYouSure">Вы уверены, что хотите удалить этот нанал?</string>
+    <string name="channelError">Были проблеммы с загрузкой, и в последний раз канал обновился не правильно!</string>
+    <string-array name="timeChosen">
+        <item>2 мин</item>
+        <item>5 мин</item>
+        <item>10 мин</item>
+        <item>30 мин</item>
+        <item>2 часа</item>
+        <item>никогда</item>
+        </string-array>
+</resources>
